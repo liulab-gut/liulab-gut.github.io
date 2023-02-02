@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <title>实验室资源</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="description" content="Liu Lab,Resources,HUST">
+      <meta name="author" content="">
+      <!-- Le styles -->
+      <link href="css/bootstrap.min.css" rel="stylesheet">
+      <link href="css/bootstrap-responsive.min.css" rel="stylesheet">
+      <link href="css/theme.css" rel="stylesheet">
+   </head>
+   <body>
+      <div class="container">
+         <header class="jumbotron subhead" id="overview">
+           <p class="lead">  HUST </p>
+            <h1>肠道微生物实验室</h1>  
+         </header>
+         <div class="masthead">
+            <div class="navbar">
+               <div class="navbar-inner">
+                  <div class="container">
+                     <ul class="nav">
+                        <li><a href="index.html">主页</a></li>
+                        <li><a href="people.html">成员</a></li>
+                        <li><a href="research.html">研究</a></li>
+                        <li><a href="publications.html">文献</a></li>
+                        <li><a href="gallery.html">风采</a></li>
+                        <li><a href="software.html">常用链接</a></li>
+                        <li class="active"><a href="#">实验室资源</a></li>
+                        <li><a href="contact.html">联系我们</a></li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <hr>
+         <div class="span6">
+            <h4><p><b><a href="resources/Zane's Strain HUST 04222019.fp7">菌株列表</a> </b></p></h4>
+            <h5>包含实验室现有菌株，均冻存于-80℃的菌种库中。如实验有需要用到，应向专门的负责人申请接种。一次接种后，需自行保种，禁止频繁到菌种库转接。</h5>
+            <br/>
+            <br/>
+            <h4><p><b><a href="resources/vectors.zip">质粒库</a> </b></p></h4>
+            <h5>包含实验室现有的质粒列表及图谱</h5>
+            <br/>
+            <br/>
+            <h4><p><b><a href="resources/plasmid construction zane.zip">已构建质粒库</a> </b></p></h4>
+            <h5>经过改造后的质粒列表及图谱，包含带有高表达启动子、包含报告基因等常用的工具质粒</h5>
+            <br/>
+            <br/>
+            <h4><p><b><a href="resources/方案.zip"> 常用实验方案合集 </a> </b></p></h4>
+         </div>
+      </div>
+
+      <footer id="footer">
+      </footer>
+
+      <!-- Le javascript
+         ================================================== -->
+      <!-- Placed at the end of the document so the pages load faster -->
+      <script src="js/jquery-1.9.1.min.js"></script>
+      <script src="js/bootstrap.min.js"></script>
+      <script>
+         $(document).ready(function() {
+             $(document.body).scrollspy({
+                 target: "#navparent"
+             });
+         });
+         
+      </script>
+      <!-- Reuse header and footer -->
+      <script> 
+      $(function(){
+        $("#overview").load("header.html"); 
+        $("#footer").load("footer.html"); 
+      });
+      </script> 
+   </body>
+</html>
